@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 15px;
+  padding: 0;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-weight: 500;
+  font-style: italic;
+}
